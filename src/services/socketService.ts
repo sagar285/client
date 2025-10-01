@@ -27,7 +27,7 @@ class SocketService {
 
   constructor() {
     this.serverUrl =
-      process.env.NEXT_PUBLIC_SERVER_URL || "http://localhost:8000";
+      process.env.NEXT_PUBLIC_SERVER_URL || "https://servershainki-3.onrender.com/";
   }
 
   async connect(): Promise<void> {

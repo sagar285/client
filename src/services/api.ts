@@ -7,7 +7,7 @@ import {
 } from "@/types";
 
 const API_BASE_URL =
-  process.env.NEXT_PUBLIC_SERVER_URL || "http://localhost:8000";
+  process.env.NEXT_PUBLIC_SERVER_URL || "https://servershainki-3.onrender.com/";
 
 const api = axios.create({
   baseURL: `${API_BASE_URL}/api`,
