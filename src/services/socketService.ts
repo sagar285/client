@@ -27,7 +27,7 @@ class SocketService {
 
   constructor() {
     this.serverUrl =
-      process.env.NEXT_PUBLIC_SERVER_URL || "https://servershainki-3.onrender.com/";
+      process.env.NEXT_PUBLIC_SERVER_URL || "https://servershivam.onrender.com/";
   }
 
   async connect(): Promise<void> {
